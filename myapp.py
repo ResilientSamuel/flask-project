@@ -17,7 +17,3 @@ def linux():
 @app.route('/whereami')
 def whereami():
 	return"koforidua"
-
-if __name__ == '__main__':
-	app.run(host="0.0.0.0")
-
